@@ -1,0 +1,90 @@
+.Market{
+    background-color:#191a32 ;
+}
+.textColor{
+    color :#df3f3e;
+}
+.bgRed{
+    background-color :#df3f3e;
+}
+.borderDark{
+    border: 1px solid #2b2d51;
+    background-color: #1a1c39;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+}
+.borderDark:hover{
+    background-color: #2a2c46;
+}
+.iconRefresh{
+    position: relative;
+    top: -2px;
+}
+.NavDiv{
+    border: 1px solid #2b2d51;
+}
+.MarketNav{
+    background-color:#20224d;
+}
+.MarketNav img{
+    width: 45px;
+    height: 45px;
+}
+.MarketTopDiv{
+    background-color: #2a2c54;
+}
+.inputMarket{
+    border: 1px solid gray ;
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+}
+.inputMarket:focus{
+    box-shadow: 0px 0px 4px 1px #df3f3e;
+    border-color: #df3f3e !important;
+}
+.expandSort{
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+.expandSort .Listitem:hover{
+ background-color: #fed1ec !important;
+}
+.iconHover{
+    color:white
+}
+.hoverFill:hover{
+ background-color:  #df3f3e !important;
+}
+.hoverFill:hover p {
+    color: white;
+}
+.BorderDiv{
+    border: 1px solid #5b5c77;
+    background-color: #191a32 ;
+    color:#5b5c77;
+}
+.filterExpandItem:hover{
+    background-color: #fed1ec !important;
+}
+.filteritems{
+    font-size: 15px;
+}
+.filterremove:hover{
+    color: #191a32;
+}
+.smNav{
+    border: 1px solid white;
+}
+.smNav:hover{
+    background-color: #df3f3e;
+}
+.smNav:hover .iconSM{
+    color: white;
+}
+.iconSM{
+    color: #df3f3e;
+}
