@@ -6,10 +6,11 @@ export default function Roostr() {
   return (
     <>
       <div className="bg-roostr" >
-        <div class="nav-item mt-5 d-flex justify-content-center">
+        <div className=" position-relative">
+        <div class="d-flex justify-content-center">
           <div className="header py-5 d-flex justify-content-center">
-            <div className="inner-layer d-flex flex-column">
-              <div className="main-hearder-chkn d-flex">
+            <div className=" w-75 d-flex flex-column">
+              <div className="main-hearder-chk d-flex">
                 <div className=" inner-div">
                   <div className="d-flex img-chk p-3">
                     <img src={logo} alt="" />
@@ -44,6 +45,7 @@ export default function Roostr() {
               </div>
             </div>
           </div>
+        </div>
         </div>
         <div className="card-two row m-0 justify-content-center">
           <div className="row m-0 p-0 justify-content-center card-main-div me-lg-4">

@@ -63,8 +63,8 @@ export default function Roost() {
             </div>
           </div>
         </div>
-        <div className="card py-3 row w-100" style={{backgroundColor:'#191a32'}} >
-          <div className="row card-info m-0 col-12 justify-content-center px-lg-4">
+        <div className="card py-3 row m-0 w-100" style={{backgroundColor:'#191a32'}} >
+          <div className="row card-info m-0 p-0 col-12 justify-content-center">
             <div className="col-lg-8 col-12 card-info-detail m-0 p-0 d-flex flex-column justify-contnet-center">
               <div class="d-flex flex-row w-100 px-md-2 justify-content-between align-items-center flex-wrap card-info-header">
                 <div
@@ -228,7 +228,8 @@ export default function Roost() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-12 justify-content-center text-light classic ms-md-0 mt-md-4 ms-lg-2 mt-lg-0">
+            <div className="col-lg-4 col-12 justify-content-center text-light ps-3 ms-md-0 mt-md-4 mt-lg-0">
+            <div className=" classic w-100">
               <div class="border-0 d-flex justify-content-between align-items-center card-header">
                 <div class="d-flex flex-row w-100 align-items-center justify-content-between flex-wrap my-md-3 mt-lg-0">
                   <div
@@ -405,11 +406,12 @@ export default function Roost() {
                 </button>
               </div>
             </div>
+            </div>
           </div>
 
-          <div className="row m-0 justify-content-center">
-            <div className="col-lg-11 justify-content-end row m-0">
-            <div className="col-lg-3 col-12 mt-3 justify-content-end text-light classic">
+          <div className="row m-0 p-0 justify-content-center">
+            <div className="col-lg-12 justify-content-end row m-0">
+            <div className="col-lg-4 col-12 mt-3 justify-content-end text-light classic">
               <div class="d-flex flex-row w-100 flex-wrap align-items-center justify-content-center justify-content-md-between my-md-3 px-lg-5 px-md-0 py-3 div-pto">
                 <div class="RoostrTypography__RedTextBase-sc-1wwb9ns-13 RoostrTypography__RedTitleMedium-sc-1wwb9ns-21 cqJgGZ hFwwEt col-lg-5 col-md-5">
                   CLAIM FEED

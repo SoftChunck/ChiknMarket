@@ -178,7 +178,10 @@ text-transform: none !important;
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+a{
+  text-decoration: none !important;
+  color:white !important;
+}
 
 .css-45xwj9-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
   border-top-right-radius: 0;

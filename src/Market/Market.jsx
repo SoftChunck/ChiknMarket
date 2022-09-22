@@ -63,7 +63,7 @@ const Market = ({selected}) => {
                         </div>
                     </div>
                     <div className='d-block d-md-none'>
-                    <a className='smNav px-3 rounded-3 text-decoration-none text-white d-flex flex-row justify-content-between align-items-center' onClick={()=>{
+                    <a className='smNav w-100 m-2 px-3 rounded-3 text-decoration-none text-white d-flex flex-row justify-content-between align-items-center' onClick={()=>{
                                 setNavSelected('CHIKN');
                                 if(ExpandNavSm == false)
                                 {

@@ -16,7 +16,8 @@
 .span {
     font-size: 40px !important;
 }
-.main-hearder-chkn {
+.main-hearder-chk {
+    position: relative;
     background-color: rgb(34, 35, 67);
     width: 100% !important;
 }

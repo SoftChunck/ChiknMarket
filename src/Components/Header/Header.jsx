@@ -41,9 +41,9 @@ function Header() {
           borderRadius:'10px',
           paddingY:'0px'
         }}>
-        <li>Roost</li>
+        <li><Link to='/ChiknRoost'>Roost</Link></li>
         <br />
-        <li>LeaderBoard</li>
+        <li><Link to='/Leaderboard'>LeaderBoard</Link></li>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} className='d-block d-lg-none' sx={{
@@ -63,9 +63,9 @@ function Header() {
           borderRadius:'10px',
           paddingY:'0px'
         }}>
-        <li>Roost</li>
+        <li><Link to='/RoostrRoost'>Roost</Link></li>
         <br />
-        <li>LeaderBoard</li>
+        <li><Link to='/Leaderboard'>LeaderBoard</Link></li>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'}  className='d-block d-lg-none' sx={{
@@ -87,11 +87,11 @@ function Header() {
           borderRadius:'10px',
           paddingY:'0px'
         }}>
-        <li>LP Farm</li>
+        <li><Link to='/LpFarm'>LP Farm</Link></li>
         <br />
-        <li>Tiles/Traits</li>
+        <li><Link to='/Tiles'>Tiles/Traits</Link></li>
         <br />
-        <li>LeaderBoard</li>
+        <li><Link to='/Leaderboard'>LeaderBoard</Link></li>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} className='d-block d-lg-none'  sx={{
@@ -112,11 +112,11 @@ function Header() {
           borderRadius:'10px',
           paddingY:'0px'
         }}>
-        <li>Chikn </li>
+        <li><Link to='/WalletChikn'>Chikn </Link></li>
         <br />
-        <li>Roostr</li>
+        <li><Link to='/WalletRoostr'>Roostr</Link></li>
         <br />
-        <li>FarmLand</li>
+        <li><Link to='/WalletFarmland'>FarmLand</Link></li>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel5'} className='d-block d-lg-none' sx={{
@@ -147,14 +147,14 @@ function Header() {
                 <button class="dropbtn my-2 mx-2 links">Chikn</button>
                 <div class="dropdown-content">
                   <Link to={'/ChiknRoost'}>Roost</Link>
-                  <a href="#">LeaderBoard</a>
+                  <Link to={'/Leaderboard'}>Leaderboard</Link>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">
                 <button class="dropbtn my-2  mx-2 links">Roostr</button>
                 <div class="dropdown-content">
                   <Link to={'/RoostrRoost'}>Roost</Link>
-                  <a href="#">LeaderBoard</a>
+                  <Link to={'/Leaderboard'}>Leaderboard</Link>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">
