@@ -15,7 +15,7 @@ function Header() {
   };
 
   return (
-    <div  className='cont pb-2 m-0 position-fixed w-100'>
+    <div  className='cont pb-2 m-0 position-stickey w-100'>
       <Navbar collapseOnSelect expand="lg" className='navbar d-flex justify-content-center py-3 m-0' variant="dark">
         <Container className='d-flex m-0' >
           <img src='chiknlogo.png' className='col-lg-1 col-md-2 col-4' />
@@ -146,31 +146,31 @@ function Header() {
               <div class="dropdown d-none d-lg-block">
                 <button class="dropbtn my-2 mx-2 links">Chikn</button>
                 <div class="dropdown-content">
-                  <a href="#">Roost</a>
+                  <Link to={'/ChiknRoost'}>Roost</Link>
                   <a href="#">LeaderBoard</a>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">
                 <button class="dropbtn my-2  mx-2 links">Roostr</button>
                 <div class="dropdown-content">
-                  <a href="#">Roost</a>
+                  <Link to={'/RoostrRoost'}>Roost</Link>
                   <a href="#">LeaderBoard</a>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">
                 <button class="dropbtn my-2  mx-2 links">FarmLand</button>
                 <div class="dropdown-content">
-                  <a href="#">LP Farm</a>
-                  <a href="#">Tiles /Traits</a>
-                  <a href="#">Leaderboard</a>
+                  <Link to={'/LpFarm'}>LP Farm</Link>
+                  <Link to={'/Tiles'}>Tiles /Traits</Link>
+                  <Link to={'/Leaderboard'}>Leaderboard</Link>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">
                 <button class="dropbtn my-2  mx-2 links">Wallet</button>
                 <div class="dropdown-content">
-                  <a href="#">Chikn</a>
-                  <a href="#">Roostr</a>
-                  <a href="#">FarmLand</a>
+                  <Link to='/WalletChikn' >Chikn</Link>
+                  <Link to='/WalletRoostr' >Roostr</Link>
+                  <Link to='/WalletFarmland' >FarmLand</Link>
                 </div>
               </div>
               <div class="dropdown  d-none d-lg-block">

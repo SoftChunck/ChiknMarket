@@ -1,0 +1,155 @@
+.back
+{
+    background-color: rgb(0, 0, 34);
+   
+}
+.img{
+    width: 65px;
+    height: 65px;
+
+}
+.grid{
+    width: 100%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom-style:solid ;
+    border-bottom-color: rgb(168, 168, 168);
+    border-bottom-width:1px;
+    width: 100%;
+    margin-left: 7%;
+}
+.first:hover{
+   background-color: brown;
+    
+
+}
+.ip{
+    padding-top: 10px;
+    padding-right: 12%;
+}
+.pp{
+    padding-top: 8px;
+    padding-right: 12%;
+    background-color: rgb(255, 238, 215);
+    border-radius: 50pc;
+    color: black;
+    height: 32px;
+}
+.pp2{
+    padding-top: 8px;
+    padding-right: 12%;
+    background-color: rgb(194, 238, 255);
+    border-radius: 50pc;
+    color: black;
+    height: 32px;
+}
+.pp1{
+    padding-top: 8px;
+    padding-right: 12%;
+    background-color: rgb(190, 195, 197);
+    border-radius: 50pc;
+    color: black;
+    height: 32px;
+}
+.pp3{
+    padding-top: 8px;
+    padding-right: 12%;
+    background-color: rgb(255, 234, 206);
+    border-radius: 50pc;
+    color: black;
+    height: 32px;
+}.pp4{
+    padding-top: 8px;
+    padding-right: 12%;
+    background-color: rgb(129, 243, 224);
+    border-radius: 50pc;
+    color: black;
+    height: 32px;
+}
+.img2{
+    width: 100%;
+   
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  background-color: brown !important;
+
+ 
+  position: relative;
+ 
+  left: 7%;
+}
+.side{
+    width: fit-content !important;
+    margin: auto;
+
+}
+
+@media screen and (max-width:500px) {
+    .grid{
+        overflow-x: scroll;
+    }
+    
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 134%;
+      margin-left: 0%;
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .side{
+        width: 100% !important;
+        
+    
+    }
+    .img2{
+       width: 100%;
+       
+       
+    }
+    .first{
+        
+        width: 134%;
+        
+    }
+
+}
+  @media screen and (min-width: 500px) and (max-width: 800px) { 
+
+    .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+        margin: auto;
+        position: relative;
+        left: 3%;
+
+    }
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+       
+    }
+    .first{
+        width: 90%;
+    }
+    .side{
+        width: 100% !important;
+        
+    
+    }
+  }

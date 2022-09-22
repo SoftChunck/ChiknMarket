@@ -1,0 +1,265 @@
+body{
+  background-color:rgb(46, 46, 98) !important ;
+}
+.crdn-fp{
+    width: 29px;
+}
+
+.logo{
+    width: 29px;
+}
+
+.acrdn-text{
+    font-weight: bolder;
+    /* font-size:x-large; */
+    color: white;
+}
+@media screen and (max-width:500px){
+  .acrdn-text{
+   font-size: small;
+}
+.hrd-pic {
+  width: 20% !important;
+}
+}
+
+.accordion-button{
+    background-color: rgb(46, 46, 98) !important;
+}
+
+.accordion-item{
+    border-radius: 10px;
+
+}
+
+.card-l{
+    background-color: rgb(46, 46, 98) !important;
+    border-radius: 15px;
+}
+
+.r-b{
+    width: 80%;
+    border-radius: 9px !important;
+}
+
+.b-pic{
+    width: 7%;
+}
+
+.f-butn{
+    border-radius: 10px;
+}
+
+.main-card{
+  background-color: rgb(69, 69, 135) !important;
+}
+
+.card-r{
+  background-color: rgb(46, 46, 98) !important;
+  border-radius: 10px !important;
+}
+
+.num{
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+/* .accordion-button::after{
+  color: white !important;
+} */
+
+
+#tab-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #tab-container .tab-content {
+    display: none;
+    padding: 20px 0 0;
+  }
+  #tab-container input {
+    display: none;
+  }
+  #tab-container input:checked + label {
+    color: #bd235d;
+  }
+  #tab-container label {
+    display: inline-block;
+    padding: 0 25px;
+    font-weight: 600;
+  }
+  #tab-container label:not(:first-of-type) {
+    border-left: 2px solid #991a48;
+  }
+  @media screen and (max-width: 480px) {
+    #tab-container label:not(:first-of-type) {
+      border-left: none;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #tab-container label {
+      display: block;
+    }
+  }
+  #tab-container label:hover {
+    color: #bd235d;
+    cursor: pointer;
+  }
+  #tab-container #tab1:checked ~ #content1 {
+    display: block;
+  }
+  #tab-container #tab2:checked ~ #content2 {
+    display: block;
+  }
+  #tab-container .card-body {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  #tab-container .card-body .card-title {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #tab-container .card-body .card-description {
+    padding-bottom: 20px;
+  }
+  #tab-container .card-body .card-link {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #bd235d;
+    display: block;
+  }
+
+
+  /* 2nd accordion */
+
+  
+#tab-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#tab-container .tab-content {
+  display: none;
+  padding: 20px 0 0;
+}
+#tab-container input {
+  display: none;
+}
+#tab-container input:checked + label {
+  color: #bd235d;
+}
+#tab-container label {
+  display: inline-block;
+  padding: 0 25px;
+  font-weight: 600;
+}
+#tab-container label:not(:first-of-type) {
+  border-left: 2px solid #991a48;
+}
+@media screen and (max-width: 480px) {
+  #tab-container label:not(:first-of-type) {
+    border-left: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  #tab-container label {
+    display: block;
+  }
+}
+#tab-container label:hover {
+  color: #bd235d;
+  cursor: pointer;
+}
+#tab-container #tab3:checked ~ #content3 {
+  display: block;
+}
+#tab-container #tab4:checked ~ #content4 {
+  display: block;
+}
+#tab-container .card-body {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+#tab-container .card-body .card-title {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#tab-container .card-body .card-description {
+  padding-bottom: 20px;
+}
+#tab-container .card-body .card-link {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #bd235d;
+  display: block;
+}
+  
+  
+  /* 3rd accordian */
+
+  #tab-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #tab-container .tab-content {
+    display: none;
+    padding: 20px 0 0;
+  }
+  #tab-container input {
+    display: none;
+  }
+  #tab-container input:checked + label {
+    color: #bd235d;
+  }
+  #tab-container label {
+    display: inline-block;
+    padding: 0 25px;
+    font-weight: 600;
+  }
+  #tab-container label:not(:first-of-type) {
+    border-left: 2px solid #991a48;
+  }
+  @media screen and (max-width: 480px) {
+    #tab-container label:not(:first-of-type) {
+      border-left: none;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #tab-container label {
+      display: block;
+    }
+  }
+  #tab-container label:hover {
+    color: #bd235d;
+    cursor: pointer;
+  }
+  #tab-container #tab5:checked ~ #content5 {
+    display: block;
+  }
+  #tab-container #tab6:checked ~ #content6 {
+    display: block;
+  }
+  #tab-container .card-body {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  #tab-container .card-body .card-title {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  #tab-container .card-body .card-description {
+    padding-bottom: 20px;
+  }
+  #tab-container .card-body .card-link {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    color: #bd235d;
+    display: block;
+  }
+    

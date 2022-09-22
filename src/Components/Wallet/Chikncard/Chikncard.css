@@ -1,0 +1,29 @@
+.btn1 {
+  border-radius: 12px 0 0px 12px !important;
+ 
+}
+.bg{
+  background-color: #3b3d76;
+}
+.btn2 {
+  border-radius: 0 12px 12px 0 !important;
+}
+.btn3{
+  border-radius: 12px !important;
+}
+.btnmobile1 {
+  border-radius: 12px 12px 0 0 !important;
+}
+.btnmobile2 {
+  border-radius: 0 0 12px 12px  !important;
+}
+@media screen and (max-width:850px) {
+  .desktopbtn{
+    display: none !important;
+  }
+}
+@media screen and (min-width:850px) {
+  .mobilebtn{
+    display: none !important;
+  }
+}

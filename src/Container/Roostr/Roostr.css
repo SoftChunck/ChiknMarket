@@ -1,0 +1,69 @@
+.nav-item {
+    background-color: rgb(25, 26, 50);
+   
+}
+.bg-roostr {
+    background-color: rgb(25, 26, 50);
+}
+.inner-div {
+    background-color: rgb(34, 35, 67);
+    width: 100% !important;
+}
+.header{
+    border-radius: 10px !important;
+    width: 100%;
+}
+.span {
+    font-size: 40px !important;
+}
+.main-hearder-chkn {
+    background-color: rgb(34, 35, 67);
+    width: 100% !important;
+}
+.inner-div {
+    border-bottom: 3px solid rgb(223, 63, 61);
+    width: 200px !important;
+}
+.custom-id {
+    background-color: rgb(42, 44, 84);
+    width: 100%;
+    height: auto;
+}
+.card-two {
+    width: 100%;
+
+}
+.card-main-div {
+    width: 95%;
+}
+.card-header-1 {
+    background-color: rgb(34, 35, 67);
+   border-radius: 10px;
+
+}
+.card-body {
+    font-size: 20px;
+}
+.accordion-flush {
+    background-color: rgb(42, 44, 84);
+    border-radius: 10px !important;
+    width: 92%;
+}
+@media screen and (max-width:600px) {
+    .accordion-flush {
+        margin-top: 1rem !important;
+         width: 93%;
+     }
+}
+@media (min-width:600px) and (max-width:800px) {
+    .accordion-flush {
+       margin-top: 2rem;
+        width: 90%;
+    }
+}
+@media (min-width:800px) and (max-width:1600px) {
+    .accordion-flush {
+         width: 33%;
+     }
+}
+

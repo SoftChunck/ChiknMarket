@@ -1,0 +1,45 @@
+.crd-body{
+    background-color: rgb(69, 69, 135);
+}
+
+
+.rd-hdr{
+    background-color: rgb(46, 46, 98) !important;
+}
+
+.hrd-pic{
+    width: 4%;
+}
+
+.egg{
+    width: 27px;
+}
+
+.drop{
+    height: 38px;
+    width: 385px;
+    border-radius: 5px;
+    background:rgb(69, 69, 135);
+    border-color: white;
+}
+
+.drop:hover{
+    background-color: rgb(243, 81, 81);
+}
+
+.drop-opt{
+    background-color:white;
+}
+
+.input-bar{
+    width: 350px;
+    height: 38px;
+    background-color: rgb(46, 46, 98);
+}
+
+.lr-butn{
+    border-radius: 50px;
+}
+@media screen and (max-width:990px) {
+    
+}

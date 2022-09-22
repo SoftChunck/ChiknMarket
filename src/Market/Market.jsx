@@ -56,9 +56,9 @@ const Market = ({selected}) => {
                             { NavSelected == 'ROOSTR' ? <div className=' bgRed' style={{height:'3px', width:'100%'}}></div> : <></>}
                         </div>
                         <div className=' d-flex flex-column'>
-                            <a className=' mx-3 text-decoration-none text-white' onClick={()=>{
+                            <a className=' mx-3 text-decoration-none text-white d-flex flex-row align-items-center' onClick={()=>{
                                 setNavSelected('FARMLAND');
-                            }}><img src='/Assets/cockfarm.png' /> FARMLAND</a>
+                            }}><img src='/Assets/cockfarm.png' className=' me-3' /> FARMLAND</a>
                             { NavSelected == 'FARMLAND' ? <div className=' bgRed' style={{height:'3px', width:'100%'}}></div> : <></>}
                         </div>
                     </div>

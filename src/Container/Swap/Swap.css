@@ -1,0 +1,41 @@
+.Swap {
+    background-color: rgb(25, 26, 50);
+}
+.swap-rrr {
+    width: 95%;
+}
+.swaper {
+    width: 65%;
+}
+/* @media screen And (max-width:600px) {
+    .pmik img {
+        width: 20%;
+    }
+    .tooltipHolder_1 {
+       width: 100%;
+       margin-left: 1rem;
+    }
+    .classic-1 {
+        width: 90%;
+        margin-left: 2rem;
+    }
+    .flex-wrap-1 {
+      margin: 0px;
+    }   
+}
+@media (min-width:600px) And (max-width:800px) {
+    .pmik img {
+        width: 10%;
+    }
+    .tooltipHolder-1 {
+       width: 100%;
+       margin-left: 7rem;
+    }
+    .classic-1 {
+        width: 100%;
+        margin-left: 3.5rem;
+    }
+    .flex-wrap-1 {
+      margin: 0px;
+    }   
+} */
